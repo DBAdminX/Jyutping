@@ -5,3 +5,4 @@ Jyutping Text Editor
 ```commandline
 pyinstaller 
 ```
+
