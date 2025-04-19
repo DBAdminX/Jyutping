@@ -13,8 +13,9 @@ jobs:
       - name: Create Executable
         uses: sayyid5416/pyinstaller@v1
         with:
-          python_ver: 3.9
-          spec: 'jyut.py'
+          python_ver: 3.12
+          spec: 'Jyutping.spec'
+          requirements: 'requirements.txt'
           upload_exe_with_name: 'Jyutping'
           options: --onefile, --name "Jyutping", --windowed,
       - name: Download Zip
